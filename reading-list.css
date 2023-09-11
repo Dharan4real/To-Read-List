@@ -1,0 +1,73 @@
+body{
+    font-family: Arial;
+}
+
+.css-display-grid, .css-input{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.css-display-grid{
+    margin: 10px;
+    
+}
+
+.heading{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.css-input{
+    margin-bottom: 10px;    
+    padding: 10px;
+}
+
+.css-input-book{    
+    padding: 10px;
+    color: black;
+    background-color: hsl(68, 42%, 72%);
+    font-weight: bold;
+    border-radius: 30px; 
+    border: none;
+}
+
+.css-input-date{
+    color: black;
+    background-color: hsl(68, 42%, 72%);
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
+
+.css-add-button{
+    color: black;
+    background-color: hsl(68, 42%, 72%);
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
+
+.display-name{
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(176, 255, 255);
+    border-radius: 30px;
+}
+
+.display-date{
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: rgb(176, 255, 255);
+    border-radius: 30px;
+}
+
+.display-button{
+    padding: 10px;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}

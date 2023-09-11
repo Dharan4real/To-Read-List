@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reading-list.css">
+</head>
+<body>
+    <p class="heading"></p>Enter the books you're reading</p>
+    <div class="css-input">
+        <input placeholder="Book Name" onkeydown="addToArrayEnterKey(event);" class = "js-input css-input-book">
+        <input type="date" class="js-input-date css-input-date">
+        <button class="js-add-button css-add-button" onclick="addToArray();">Add</button>
+    </div>
+    <div class="js-display-books css-display-grid"></div>
+</body>
+<script src="reading-list.js"></script>
+</html>
